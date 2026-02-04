@@ -1,0 +1,14 @@
+---ME TRAE LAS DISTINCT DE ESA COLUMNA
+SELECT DISTINCT order_status FROM orders
+ORDER BY 1;---ORDENA ALFABETICAMENTE---
+---
+SELECT * FROM orders
+WHERE order_status = 'CLOSED';
+
+SELECT * FROM orders
+WHERE order_status = 'COMPLETE' OR order_status = 'CLOSED';
+---IGUAL QUE EL DE ARRIBA. ME TRAE SOLO ESOS---
+SELECT * FROM orders
+WHERE order_status IN ('COMPLETE', 'CLOSED');
+
+
