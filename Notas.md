@@ -1,10 +1,4 @@
-## Conda entorno
-
-conda activate DBUdemy
-
-## Notas txt sobre el Curso SQL
-
-// filttrar datos basandonos en Aggregted Results usando _Group By_ y _Having_
+**_ filttrar datos basandonos en Aggregted Results usando *Group By* y *Having* _**
 
 ## Luego de usar funciones y obtener resultados Agregados, usamos Having para poder... FILTRAR LA ESA DATA
 
