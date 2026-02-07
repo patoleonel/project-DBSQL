@@ -1,4 +1,4 @@
-**_Resumen de SQL JOINs_**  
+**_Resumen de SQL JOINs_** son como el **Merge de POWERBi**
 Los JOINs se utilizan para combinar filas de dos o más tablas basándose en una columna relacionada entre ellas.
 
 1. INNER JOIN
@@ -20,7 +20,7 @@ Resultado: Si no hay match en la derecha, verás NULL.
 
 Nota: Es exactamente lo opuesto al Left. Se usa poco porque es más fácil de leer un LEFT JOIN cambiando el orden de las tablas en el código.
 
-4. FULL OUTER JOIN
+4. FULL OUTER JOIN union de 3 y 2.
    Retorna todos los registros de ambas tablas, coincidan o no.
 
 Uso: Para encontrar registros "huérfanos" en cualquiera de las dos tablas.
